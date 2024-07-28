@@ -1,0 +1,40 @@
+* {
+    font-family: 'Passion One', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.title {
+    font-family: 'Slackey', sans-serif;
+    font-size: 32px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    color: black;
+}
+
+#main_div {
+    position: relative;
+    top: 10px;
+    padding: 20px;
+    margin: 40px;
+    height: 100%;
+    width: 400px;
+    /* border: 2px solid black; */
+    text-align: center;
+    background-color: #22252D;
+    border-radius: 25px;
+}
+
+button {
+    border-radius: 30px;
+    width: 100px;
+    background-color: #42454D;
+    border: 0px;
+}
