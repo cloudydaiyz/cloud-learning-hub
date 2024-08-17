@@ -1,5 +1,5 @@
 import { Context } from "aws-lambda";
-import { client, handler } from ".";
+import { client, handler } from "./index.js";
 
 const c: Context = {
     callbackWaitsForEmptyEventLoop: false,
